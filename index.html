@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Details</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-xs-12 col-md-6" id = "map_canvas">
+            <!--<div style='overflow:hidden;height:500px;width:400px;'>-->
+                <div id="map"></div>
+            <!--</div>-->
+
+        </div>
+
+
+        <div class="col-xs-5 col-md-5 " id = "info-container">
+
+            <div id = "info" class="row ">
+
+                <div class="col-xs-8 col-md-8 ">
+                    <h2 id = "res_name"></h2>
+                    <h5 id = "res_cum_star"></h5>
+                    <h5 id = "res_em_star"></h5>
+                </div>
+
+                <div id = "cls_btn" class="col-xs-4 col-md-4">
+
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div id="BSSM">
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/require.js"></script>
+<script src="js/main.js"></script>
+<script src="js/BSSM.js"></script>
+<script src="js/TimeLine.js"></script>
+<script src="js/load_data.js"></script>
+<script src="js/createMap.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgFwkRCMzl8PYEgx7t9tgV0zm8QENIzMo&libraries=visualization&callback=loadData&region=US">
+</script>
+
+</body>
+</html>

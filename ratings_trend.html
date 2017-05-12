@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Ratings Trend</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/slider_style.css">
+
+    <!--<link rel="stylesheet" href="css/style.css">-->
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+
+
+        <div class="col-xs-1 col-md-1">
+
+        </div>
+
+
+        <div class="col-xs-10 col-md-10" id = "scatter_canvas">
+
+
+            <div class="row">
+
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="all_res"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="am_res"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="mx_res"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="ch_res"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="jp_res"></div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-1 col-md-1">
+
+                </div>
+
+                <div class="col-xs-8 col-md-8">
+                    <div id="slider"></div>
+                </div>
+
+
+                <div class="col-xs-1 col-md-1">
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-2 col-md-2">
+                    <div id="all_res_top"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="am_res_top"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="mx_res_top"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="ch_res_top"></div>
+                </div>
+
+                <div class="col-xs-2 col-md-2">
+                    <div id="jp_res_top"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-xs-1 col-md-1 ">
+
+            <button type="button" class="btn btn-primary btn-sm" onclick="play()">Play</button>
+            <button type="button" class="btn btn-primary btn-sm" onclick="stop()">Stop</button>
+
+        </div>
+
+    </div>
+</div>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/queue.v1.min.js"></script>
+<script src="js/ScatterPlot.js"></script>
+<script src="js/main_ratings_trend.js"></script>
+<script src="js/createMap.js"></script>
+<script src="js/Slider.js"></script>
+<script src="js/top10.js"></script>
+
+</body>
+</html>
